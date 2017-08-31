@@ -1,0 +1,14 @@
+To-Do
+
+Critical:
+	* Fix escaped ' in message sent from contact form.
+
+Important:
+    * Continue work on the Staff section of the site:
+          o View/Edit the Volunteer List
+          o View/Edit Registrations (the list is displayed, but that's it.)
+          o Enable mailings to all Volunteers who checked "Sign me up for notification of future trips"
+          o Provide maintenance of photo galleries
+    * Add a View Photos button to trips on the Info page
+
+Needs

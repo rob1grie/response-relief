@@ -1,0 +1,76 @@
+Database table structures
+
+Staff
+	staff_id			int			primary key, autoincrement
+	username			varchar(15)
+	password			varchar(20)
+	first_name			varchar(30)
+	last_name			varchar(30)
+	email				varchar(50)
+	reset_password		tinyint
+	
+Events
+	event_id			int				primary key, autoincrement
+	title				varchar(128)
+	location			varchar(128)
+	start_date			int
+	end_date			int
+	departure			varchar(128)
+	what_to_bring		text
+	where_to_stay		varchar(128)
+	age_requirements	text
+	health_requirements	text
+	
+Volunteers
+	volunteer_id		int				primary key, autoincrement
+	first_name			varchar(30)
+	last_name			varchar(30)
+	address1			varchar(50)
+	address2			varchar(50)
+	city				varchar(20)
+	state				varchar(2)
+	zip					varchar(10)
+	home_phone			varchar(10)
+	work_phone			varchar(10)
+	cell_phone			varchar(10)
+	email				varchar(50)
+	dobMonth			tinyint
+	dobDay				tinyint
+	dobYear				smallint
+	home_church			varchar(128)
+	skills_certs		text
+	mailing_list		tinyint
+	agree_coc			tinyint
+	
+Registrations
+	registration_id		int				primary key, autoincrement
+	event_id			int
+	volunteer_id		int
+	start_date			int				Start date of volunteer service
+	end_date			int				End date of volunteer service
+	date_of_reg			int				Date registration was submitted
+	
+Resources
+	resource_id			int				primary key, autoincrement
+	name				varchar(60)
+	address1			varchar(50)
+	address2			varchar(50)
+	city				varchar(20)
+	state				varchar(2)
+	zip					varchar(10)
+	home_phone			varchar(10)
+	work_phone			varchar(10)
+	cell_phone			varchar(10)
+	email				varchar(50)
+	loan_start			date
+	loan_end			date
+	loan_indef			tinyint
+	donate				tinyint
+	description			text
+	
+Galleries
+	gallery_id			int				primary key, autoincrement
+	event_id			int
+	name				varchar(60)
+	directory			varchar(100)
+	

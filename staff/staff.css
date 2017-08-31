@@ -1,0 +1,246 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+}
+.maintitle {
+	font-size: 2em;
+	font-style: italic;
+	font-weight: bold;
+	color:#000000
+}
+.maintitleblk {
+	font-size: 2em;
+	font-style: normal;
+	font-weight: bold;
+	color:#000000
+}
+.subtitle {
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: bold;
+	color:#000000
+}
+.subtitlesmaller 
+{
+	font-size: 1.25em;
+	font-style: italic;
+	font-weight: bold;
+	color:#000000
+}
+.subtitleblk {
+	font-size: 1.5em;
+	font-style: normal;
+	font-weight: bold;
+	color:#000000
+}
+.formheading
+{
+	font-style: italic;
+	font-size: .9em;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #000000;
+}
+.formlabel 
+{
+	font-style: italic;
+	font-size: .9em;
+	font-weight: bold;
+	color: #000000;
+}
+.formvalue
+{
+    color: #000000;
+    font-style:normal;
+    font-size: .9em;
+}
+.formvaluemediumbold
+{
+	color: #000000;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: bold;
+}
+.formboldmessage
+{
+	font-style: normal;
+	font-weight: bold;
+}
+.docbodybold {
+	font-weight:bold;
+}
+.docbodysmall {
+	font-size: 1em;
+}
+.docbodysmallbold {
+	font-size: .9em;
+	font-weight: bold;
+}
+.docbodyxsmall {
+	font-size: .7em;
+}
+.docbodyxsmallbold 
+{
+	font-size: .7em;
+	font-weight:bold;
+}
+.docunderline {
+	text-decoration: underline;
+}
+.docitalic {
+	font-style: italic;
+}
+.docsmallred 
+{
+	font-size: .8em;
+	color: Red;
+}
+.centerdiv {
+	position: absolute;
+	left: 160px;
+	top: 1px;
+	width: 530px;
+	margin: 0px 10px 10px;
+}
+.centertext {
+	text-align: center;
+}
+
+.typewriter 
+{
+	font-family:Courier;
+}
+
+.misclink {
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+.pagefooter {
+	position: static;
+}
+.rolloverxlarge {
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: bold;
+	color:#CCCCFF;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	left: 200px;
+	top: 120px;
+	height: 30px;
+	width: 475px;
+}
+.rollovermedium {
+	font-size: 1em;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	left: 200px;
+	top: 120px;
+	height: 30px;
+	width: 475px;
+	text-align: center;
+	color: #CCCCFF;
+}
+
+.bodylinksmall {
+	font-size: .8em;
+}
+.docunderlinebold {
+	font-weight: bold;
+	text-decoration: underline;
+}
+.docunderlineboldsmall {
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: .8em;
+}
+.errortext {
+	font-size: 1.2em;
+	font-weight:bold;
+	color: #FF0000;
+}
+.errortextsmall 
+{
+	font-size:.8em;
+	font-weight:bold;
+	color:#FF0000;
+}
+.errortextplain
+{
+	color:#FF0000;
+}
+.timepickerstyle 
+{
+	font-size: .8em;
+	color: #000;
+	background-color: #FFF;
+}
+.timepickerselectedstyle
+{
+	font-size: .8em;
+	font-weight: bold;
+}
+
+.calendarstyle
+{
+	font-size: .8em;
+}
+
+.smallverdana
+{
+	font-size: .8em;
+	font-family:Verdana, Arial;
+}
+
+hr {
+	color: #000000;
+}
+ul
+{
+	line-height: 150%;
+}
+
+a:link
+{
+	font-size: .8em;
+	color: #000000;
+}
+a:visited
+{
+	font-size: .8em;
+	color: #000000;
+}
+a:hover
+{
+	font-size: .8em;
+	color: #FF00FF;
+}
+
+.selectedmenu {
+	font-size: .8em;
+	font-weight: bold;
+	color: #9A0000;	
+}
+
+.tableheader {
+	font-size: .8em;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #663300;
+}
+
+.date-tccontainer { 
+	border: 1px solid #cccccc; 
+	background-color: #ffffff; 
+	font-size: .9em;
+	padding: 2px; 
+	float: left; 
+	margin-right: 2px; 
+	text-align: center; 
+}
